@@ -22,7 +22,7 @@ def reverse(x: int) -> int:
 def main():
     x = 123
     result = reverse(x)
-    print("\n" + str(x))
+    print("\n" + str(result))
 
 if __name__ == "__main__":
     main()
