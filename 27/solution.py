@@ -1,4 +1,7 @@
-def removeElement(nums: [int], val: int) -> int:
+from typing import List
+
+
+def removeElement(nums: List[int], val: int) -> int:
     length = 0
 
     for i in range(len(nums)):
